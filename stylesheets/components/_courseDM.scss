@@ -1,0 +1,11 @@
+.courseDM {
+    background: url(../images/入門初階Course_S.jpg) center / 100% no-repeat;
+    height: 400px;
+}
+
+@include media-breakpoint-up(lg) {
+    .courseDM {
+        background: url(../images/入門初階Course_L.jpg) center/ 100% no-repeat;
+        height: 572px;
+    }
+}

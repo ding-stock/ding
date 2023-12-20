@@ -1,0 +1,20 @@
+.header {
+    background: url(../images/banner_S1.png) top / 100% no-repeat;
+    height: 394px;
+    max-width: 100%;
+    background-size: cover;
+}
+
+@include media-breakpoint-up(md) {
+    .header {
+        background: url(../images/banner_m.png) center center no-repeat;
+        height: 840px;
+    }
+}
+
+@include media-breakpoint-up(lg) {
+    .header {
+        background: url(../images/banner_XL.png) center center no-repeat;
+        height: 840px;
+    }
+}
