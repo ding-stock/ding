@@ -13870,13 +13870,13 @@ body {
 }
 
 .courseDM {
-  background: url(../images/入門初階Course_S.jpg) center/100% no-repeat;
+  background: url(../images/中階DM_S.png) center/100% no-repeat;
   height: 400px;
 }
 
 @media (min-width: 992px) {
   .courseDM {
-    background: url(../images/入門初階Course_L.jpg) center/100% no-repeat;
+    background: url(../images/中階DM_L.png) center/100% no-repeat;
     height: 572px;
   }
 }
